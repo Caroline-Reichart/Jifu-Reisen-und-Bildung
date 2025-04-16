@@ -102,7 +102,7 @@ section {
     font-style: normal;
     text-decoration: none;
     color: var(--text-color);
-    text-shadow: 3px 3px var(--secondary-text-color);
+    text-shadow: 0.3rem 0.3rem var(--secondary-text-color);
     font-size: 3rem;
     /* padding-right: 100px;  */
     
@@ -323,7 +323,7 @@ h2{
     transform: translate(0.2rem, 0.2rem);
 }
 
-.card a:hover{
+/* .card a:hover{
     background: transparent;
 } 
 
@@ -335,7 +335,7 @@ h2{
     padding: 10px;
     background-color: var(--secondary-text-color);
     margin-bottom: 250px;
-}
+} */
 
 .footer{
    font-size: 1rem;
@@ -351,6 +351,55 @@ h2{
     text-decoration: none;
     font-size: 1rem;
 
+}
+
+@media screen and (max-width: 768px) {
+    .name-h1{
+        font-size: 2rem;
+        padding-right: 0px; 
+    }
+    .welcome{
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+    .about-me{
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 90%;
+    }
+    .text-p{
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 90%;
+    }
+    .services{
+        font-size: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .services-p{
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 90%;
+    }
+    .card{
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+    
+    .button{
+        padding-top: 1rem;
+    }   
+  
+    .footer{
+    font-size: 0.8rem;
+  }
+    
 }
 
 /* .grid-section{
