@@ -357,6 +357,7 @@ h2{
     .name-h1{
         font-size: 2rem;
         padding-right: 0px; 
+        text-shadow: 0.1rem 0.1rem var(--secondary-text-color);
     }
     .welcome{
         font-size: 1rem;
@@ -385,13 +386,13 @@ h2{
         padding-bottom: 1rem;
         width: 90%;
     }
-    .card{
-        width: 90%;
-        height: auto;
-        padding: 1rem;
-        margin: 0 auto;
-    }
     
+    ul{
+        font-size: 1rem;
+    }
+    li{
+        font-size: 1rem;
+    }
     .button{
         padding-top: 1rem;
     }   
