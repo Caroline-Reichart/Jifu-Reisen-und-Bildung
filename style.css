@@ -416,7 +416,6 @@ h2{
         width: 80%;
         text-align: center;
         border-radius: 1rem;
-        background-color: rgb(0, 183, 255);
         box-shadow: 0.1rem 0.1rem var(--grid-color);
     }
     #button:hover{
@@ -426,9 +425,6 @@ h2{
         width: 80%;
         text-align: center;
         border-radius: 1rem;
-        
-        
-    
         border: none;
     }
     #button:active{
