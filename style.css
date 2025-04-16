@@ -108,14 +108,6 @@ section {
     
 }
 
-/* .webdev{
-    font-family: "Poppins", sans-serif;
-    color: var(--text-color);
-    text-shadow: 3px 3px var(--primary-color);
-    font-size: 2rem;
-	/* padding-bottom: 50px;
-	padding-right: 150px;  
-} */
  
 .welcome{
 	font-family: "Poppins", sans-serif;
@@ -135,14 +127,7 @@ strong{
 .about-me{
 	font-family: "Poppins", sans-serif;
 	color: var(--secondary-text-color);
-	/* font-size: 400px; */
-	/* padding-top: 50px;
-	padding-left: 100px; */
-	/* text-shadow: 3px 3px var(--primary-color);
-	font-size: 50px;
-	padding-right: 170px;
-	padding-bottom: 50px; */
-    padding-bottom: 2rem;
+	padding-bottom: 2rem;
     width: 70%;
     margin: auto;
 }
@@ -167,25 +152,6 @@ h2{
     text-align: left;
     padding-top: 3rem;
 }
-
-.more-info{
-	font-family: "Poppins", sans-serif;
-	color: var(--text-color);
-	text-shadow: 3px 3px var(--secondary-text-color);
-	font-size: 2rem;
-	padding-bottom: 50px;
-}
-
-/* .services{
-    font-family: "Poppins", sans-serif;
-    color: var(--text-color);
-    text-shadow: 3px 3px var(--secondary-text-color);
-    font-size: 2.5rem;
-	padding-top: 3rem;
-    padding-bottom: 2rem;
-    text-align: center;
-    
-} */
 
 .text-p{
 	font-family: "Poppins", sans-serif;
@@ -466,10 +432,10 @@ h2{
         width: 90%;
     }
     li{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     .text-p a{
-        font-size: 0.8rem;
+        font-size: 1rem;
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
@@ -478,9 +444,7 @@ h2{
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-    /* .button{
-        padding-top: 1rem;
-    } */
+    
     #button{
         font-size: 0.8rem;
         padding: 0.5rem;
@@ -522,92 +486,3 @@ h2{
     
 }
 
-/* .grid-section{
-    background-color: var(--secondary-color);
-    padding: 50px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.grid_container{
-        margin: 0 auto; 
-        max-width: 90%;
-        background-color: var(--primary-color);
-        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.8);
-        gap: 1rem;
-        padding: 1rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr; 
-        grid-template-rows: 300px 300px; 
-        grid-template-areas: 
-        "item1 item1 item2 item3"
-        "item4 item5 item5 item3";
-}
-    
-#item1{
-        grid-area: item1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-}
-    
-#item2{
-        grid-area: item2;
-        flex-direction: column;
-        
-}
-   
-#item3{
-        grid-area: item3;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        font-size: 25px;
-        color: var(--secondary-text-color);
-}
-    
-#item4{
-        grid-area: item4;
-        flex-direction: column;
-}
-    
-#item5{
-        grid-area: item5;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 50px;
-}
-    
-.grid_item{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 50px; 
-        border-radius: 10px;
-        background-color: var(--grid-color);
-}
-    
-.grid_item a{
-        color: var(--secondary-text-color);
-        font-size: 30px;
-        padding: 10px 20px;
-        text-decoration: none;
-        border-radius: 5px;
-        transition: 150ms ease-in-out;
-}
-
-.grid_item a:hover{
-        color: var(--text-color);
-        background: transparent;
-}
-    
-#item5 img{
-        width: 100px;
-        height: 100px;
-        border-radius: 10px;
-        margin-right: 25px;
-} */
